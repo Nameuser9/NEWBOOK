@@ -1,8 +1,8 @@
-﻿void Fillarray(int[] collection)
+void Fillarray(int[] collection)
 {
-    int length = collection.Length;
-    int index = 0;
-    while (index < length)
+int length = collection.Length;
+int index = 0;
+while (index < length)
     {
         collection[index] = new Random().Next(1, 10);                   //Convert.ToInt32(Console.ReadLine());
         index++;
