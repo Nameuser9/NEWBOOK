@@ -13,16 +13,19 @@ void PrintArray(int[] col)
 {
     int count = col.Length;
     int position = 0;
+    int chut = 0;
     while (position < count)
     {
         if ((col [position]) % 2 < 1)
          { 
             Console.WriteLine(col[position]);
             position++;
+            chut++;
          }
          else
             position++;
     }
+    Console.WriteLine(chut);
 }
 //int n = Convert.ToInt32(Console.ReadLine());
 int[] array = new int [4];
